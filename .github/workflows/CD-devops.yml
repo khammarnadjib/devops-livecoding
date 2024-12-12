@@ -6,12 +6,6 @@ on:
     workflows: ["CI Part"]  # Le nom du workflow précédent
     types:
       - completed
-  push:
-    branches: 
-      - main #TODO 
-  pull_request:
-    branches: 
-      - main
 
 jobs:
   build-and-push-docker-image:
